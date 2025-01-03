@@ -1,49 +1,48 @@
 {
-  "name": "underkill-stack",
-  "version": "1.0.0",
-  "description": "A minimal react-router stack",
-  "main": "index.js",
-  "type": "module",
-  "imports": {
-    "#*": "./*"
-  },
-  "scripts": {
-    "dev": "react-router dev",
-    "build": "react-router build",
-    "start": "NODE_ENV=production react-router-serve ./build/server/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jacobparis/underkill-stack.git"
-  },
-  "keywords": [
-    "remix"
-  ],
-  "author": "Jacob Paris",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jacobparis/underkill-stack/issues"
-  },
-  "homepage": "https://github.com/jacobparis/underkill-stack#readme",
-  "dependencies": {
-    "@react-router/node": "^7.0.2",
-    "@react-router/serve": "^7.0.2",
-    "@tailwindcss/vite": "^4.0.0-beta.6",
-    "isbot": "^5.1.17",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.0.2"
-  },
-  "devDependencies": {
-    "@netlify/vite-plugin-react-router": "^1.0.0",
-    "@react-router/dev": "^7.0.2",
-    "@total-typescript/tsconfig": "^1.0.4",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "npm-run-all": "^4.1.5",
-    "react-router-devtools": "^1.0.5",
-    "tailwindcss": "^4.0.0-beta.6",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11"
-  }
+	"name": "underkill-stack",
+	"version": "1.0.0",
+	"description": "A minimal react-router stack",
+	"main": "index.js",
+	"type": "module",
+	"imports": {
+		"#*": "./*"
+	},
+	"scripts": {
+		"dev": "react-router dev",
+		"build": "react-router build",
+		"start": "NODE_ENV=production react-router-serve ./build/server/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jacobparis/underkill-stack.git"
+	},
+	"keywords": ["remix"],
+	"author": "Jacob Paris",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jacobparis/underkill-stack/issues"
+	},
+	"homepage": "https://github.com/jacobparis/underkill-stack#readme",
+	"dependencies": {
+		"@react-router/node": "^7.0.2",
+		"@react-router/serve": "^7.0.2",
+		"@tailwindcss/vite": "^4.0.0-beta.6",
+		"isbot": "^5.1.17",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router": "^7.0.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@netlify/vite-plugin-react-router": "^1.0.0",
+		"@react-router/dev": "^7.0.2",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"@types/react": "^19.0.1",
+		"@types/react-dom": "^19.0.2",
+		"npm-run-all": "^4.1.5",
+		"react-router-devtools": "^1.0.5",
+		"tailwindcss": "^4.0.0-beta.6",
+		"typescript": "^5.7.2",
+		"vite": "^5.4.11"
+	}
 }
